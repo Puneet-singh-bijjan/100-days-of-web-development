@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: rgb(139, 131, 131);
+    font-family: 'oswald', serif;
+}
+h1{
+    font-size: 46px;
+    color: rgb(71,62, 62);
+    margin-bottom: 0;
+}
+a{
+    font-size: 24px;
+    color: white;
+    background-color: rgb(221, 17, 17);
+    padding: 4px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(223, 52, 52);
+    
+}
+ul{
+    margin: 22px auto 0 auto;
+    width: 600px;
+    list-style: none;
+    padding: 0;
+}
+li{
+    background-color: rgba(207, 165, 157, 0.61);
+    margin: 14px 0;
+    border-radius: 15px;
+    margin: 12px 0;
+    padding: 14px 0;
+}
+    /* 
+header p{
+    font-size: 24px ;
+    color: rgb(71,62, 62);
+    margin-bottom: 24px;
+} */
+#discription {
+    font-size: 16px ;
+    color: rgb(71,62, 62);
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+li h2{
+    color: rgb(78, 13, 5);
+}
+.daily-goal{
+    color: rgb(71, 29, 22);
+    margin: 12px;
+    font-family: sans-serif;
+}
+.highlight-goal{
+    background-color:  rgba(207, 165, 157, 0.363);;  
+}
