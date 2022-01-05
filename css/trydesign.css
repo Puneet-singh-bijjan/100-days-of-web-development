@@ -22,6 +22,7 @@ ul{
     list-style: none;
     background-color: rgba(207, 165, 157, 0.61);
     margin: 15px 0;
+    border-radius: 10px;
 }
 li{
     margin: 12px 0;
