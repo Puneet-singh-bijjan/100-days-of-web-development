@@ -4,6 +4,10 @@ body{
 }
 #flex-container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    
 }
 #page-logo a{
     text-decoration: none;
@@ -18,5 +22,12 @@ ul{
     margin: 0;
     padding: 0;
     display: flex;
-
+    justify-content: space-between;
+    
 }
+li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+

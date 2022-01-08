@@ -1,0 +1,44 @@
+#section-1{
+    height: 500px;
+    background-image: url("/images/Pages/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#section-1-content{
+    text-align: center;
+    background-color: rgba(51, 47, 47, 0.8);
+    width: 600px;
+    padding: 35px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(69, 67, 67);
+    position: relative;
+    top: 150px;
+}
+#section-1-content h1 {
+    margin: 0;
+    font-size: 40px;
+    color: white;
+    font-family: 'Raleway' , sans-serif;
+    text-transform: uppercase;
+}
+#section-1-content p{
+    text-transform: uppercase;
+    font-family: 'Raleway' , sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    padding-bottom: 13px;
+}
+#section-1-content a{
+    padding: 10PX 18px;
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(69, 67, 67);
+    color: black;
+}
+#section-1-content a:hover{
+    padding: 12px 20px;
+    background-color: rgb(255, 238, 0);
+}
