@@ -7,8 +7,12 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 12px 40px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
     
 }
+
 #page-logo a{
     text-decoration: none;
     padding: 10px;
@@ -17,7 +21,7 @@ body{
     font-size: 40px;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
-ul{
+nav ul{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -25,9 +29,35 @@ ul{
     justify-content: space-between;
     
 }
-li a{
+nav a{
     text-decoration: none;
     padding: 10px;
+    color: rgb(255, 251, 0);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
+nav a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 251, 0);
+}
 
+footer {
+    background: linear-gradient(70deg , rgb(24 , 24 , 24) , rgb(27 , 29 , 29));
+    height: 90px;
+}
+
+footer ul {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer li {
+    padding: 20px;
+}

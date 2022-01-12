@@ -42,3 +42,48 @@
     padding: 12px 20px;
     background-color: rgb(255, 238, 0);
 }
+
+#section-2 {
+    padding: 20px;
+    background: linear-gradient(0deg , rgb(227 , 255 , 253) , rgb(202 , 243 , 240));
+}
+
+#section-2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(68, 67, 67);
+    font-size: 35px;
+    margin: 22px;
+}
+
+#section-2-lists {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.section-2-items img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.section-2-items p {
+    color: rgb(112, 93, 93);
+    font-size: 20px;
+    margin: 18px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li.section-2-items{
+    width: 100%;
+    margin: 0 20px;
+}
+
+.section-2-items strong {
+    color: rgb(134, 224, 164);
+}
