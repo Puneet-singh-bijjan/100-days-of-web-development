@@ -7,18 +7,28 @@ body{
     position: static;
 }
 
+#flex-container a {
+    color: rgb(183, 230, 235);
+}
+
+
+#flex-container nav a:hover{
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+
 main ul{
     width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     padding: 0;
 }
 
 main li{
     display: flex;
-    width: 500px;
+    width: auto;
     margin: 0 auto;
     background-color: white;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
@@ -31,7 +41,10 @@ main li{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
 
+.item-content h2{
+    margin: 0;
 }
 
 main li img {
