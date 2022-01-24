@@ -1,0 +1,41 @@
+body{
+    width: 50%;
+    margin: 8rem auto;
+    background-color: rgb(180, 180, 177);
+}
+
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 2px 2px 4px rgb(56, 55, 55);
+}
+
+input , select , textarea{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1rem 0;
+    padding: .25rem;
+}
+
+input:focus , textarea:focus{
+    background-color: rgb(228, 181, 233);
+}
+
+button{
+    display: block;
+    margin: 1rem auto;
+    background-color: white;
+    color: rgb(228, 181, 233);
+    padding: .5rem 1.5rem;
+    border-radius: 6px; 
+}
+
+.radio-container {
+    display: flex;
+    width: auto;
+}
+
+button:hover{
+    background-color: rgb(228, 181, 233);
+    color: white;
+}
