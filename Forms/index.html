@@ -10,42 +10,78 @@
 </head>
 
 <body>
-    <form action="" class="form-container">
-        <label for="username">Your Name</label>
-        <input type="text" name="user-name" id="username">
-        <label for="useremail">Your Email Address</label>
-        <input type="email" name="user-email" id="useremail">
-        <label for="userpass">Password</label>
-        <input type="password" name="user-pass" id="userpass">
-        <label for="userage">Your Age</label>
-        <input type="number" step="1" name="user-age" id="userage">
-        <h2>How can we verify you?</h2>
-        <div class="radio-container">
-            <input type="radio" name="verify" id="via-text" value="text">
-            <label for="via-text">Via text message</label>
-        </div>
-        <div class="radio-container">
-            <input type="radio" name="verify" id="via-phone" value="phone">
-            <label for="via-phone">Via phone call</label>
-        </div>
-        <div class="radio-container">
-            <input type="radio" name="verify" id="via-email" value="email">
-            <label for="via-email">Via Email</label>
-        </div>
-        <h2>What is your favourite color?</h2>
-        <select name="favourite-color" id="favouritecolor">
-            <option value="red">Red</option>
-            <option value="black">Black</option>
-            <option value="blue">Blue</option>
-        </select>
-        <div class="radio-container">
-            <input type="checkbox"><p>Terms</p>
-        </div>
-        <label for="usermessage">Your Message</label>
-        <textarea name="user-message" id="usermessage"></textarea>
-        <button>Submit</button>
+    <header>
+        <h1>
+            Demo Form
+        </h1>
+    </header>
+    <main>
+        <form action="" class="form-container">
+            <section class="user-private-details">
+                <ul>
+                    <li>
+                        <label for="username">Your Name</label>
+                        <input type="text" name="user-name" id="username" required>
+                    </li>
+                    <li>
+                        <label for="useremail">Your Email Address</label>
+                        <input type="email" name="user-email" id="useremail" required>
+                    </li>
+                    <li>
+                        <label for="userpass">Password</label>
+                        <input type="password" name="user-pass" id="userpass" required>
+                    </li>
+                    <li>
+                        <label for="userage">Your Age</label>
+                        <input type="number" step="1" name="user-age" id="userage" required>
+                    </li>
+                    <li>
+                        <label for="userbirth">Your DOB</label>
+                        <input type="date" name="user-birth" id="userbirth" required min="1921-01-01" max="2003-01-01">
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>How can we verify you?</h2>
+                <ul>
+                    <li class="radio-container">
+                        <input type="radio" name="verify" id="viatext" value="text" required>
+                        <label for="viatext">Via text message</label>
+                    </li>
+                    <li class="radio-container">
+                        <input type="radio" name="verify" id="viaphone" value="phone" required>
+                        <label for="viaphone">Via phone call</label>
+                    </li>
+                    <li class="radio-container">
+                        <input type="radio" name="verify" id="viaemail" value="email" required>
+                        <label for="viaemail">Via Email</label>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>What is your favourite color?</h2>
+                <select name="favourite-color" id="favouritecolor" required>
+                    <option value="red">Red</option>
+                    <option value="black">Black</option>
+                    <option value="blue">Blue</option>
+                </select>
+            </section>
+            <HR></HR>
+            <section>
+                <div class="radio-container">
+                    <input type="checkbox" name="term-box" id="termbox" required>
+                    <label for="termbox">Agree to Terms?</label>
+                </div>
+            </section>
+            <section>
+                <label for="usermessage">Your Message</label>
+                <textarea name="user-message" id="usermessage" required></textarea>
+            </section>
+            <button>Submit</button>
 
-    </form>
+        </form>
+    </main>
+
 </body>
 
 </html>

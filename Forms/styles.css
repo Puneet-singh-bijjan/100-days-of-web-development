@@ -1,7 +1,19 @@
 body{
     width: 50%;
-    margin: 8rem auto;
+    margin: 4rem auto;
     background-color: rgb(180, 180, 177);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .form-container {
@@ -13,8 +25,10 @@ body{
 input , select , textarea{
     width: 100%;
     box-sizing: border-box;
-    margin: 1rem 0;
+    margin: 1rem auto;
     padding: .25rem;
+    display: block;
+    border: 1px solid rgb(184,184,184);
 }
 
 input:focus , textarea:focus{
@@ -32,10 +46,20 @@ button{
 
 .radio-container {
     display: flex;
+    margin: 1rem 0;
+}
+
+.radio-container input {
     width: auto;
+    margin: 0;d
+    margin-right: .5rem ;
 }
 
 button:hover{
     background-color: rgb(228, 181, 233);
     color: white;
+}
+
+textarea{
+    resize: none;
 }
