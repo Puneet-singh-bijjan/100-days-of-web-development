@@ -7,5 +7,14 @@ let languages = {
     proficiency : 'expert'
 };
 
-alert(hobbies);
-alert(languages.proficiency);
+let onlineCourse = {
+    name:'Web Development by maximilian',
+    price: 400,
+    target: ['learning' , 'practicing' , 'what to do next'],  
+};
+
+alert(calling(onlineCourse.target , 0));
+
+function calling(array , arrayItem){
+    return array[arrayItem];
+}
