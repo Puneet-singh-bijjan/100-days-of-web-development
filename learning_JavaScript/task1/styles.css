@@ -42,3 +42,20 @@ button:hover{
     background-color: white;
     color: rgb(184, 218, 105);
 }
+
+input.warning {
+    background-color: rgba(214, 114, 77, 0.918);
+}
+
+#toChangeSpan.warning {
+    color: rgba(214, 114, 77, 0.918);
+}
+
+input.error {
+    background-color: rgba(230, 69, 41, 0.918);
+}
+
+#toChangeSpan.error {
+    color: rgba(230, 69, 41, 0.918);
+}
+

@@ -3,11 +3,17 @@ function countInput(event){
     remainingCharacter = 60 - event.target.value.length;
      let toChangeSpan = document.getElementById('toChangeSpan');
      toChangeSpan.textContent = remainingCharacter;
-   if(remainingCharacter<10){
-       document.querySelector('input').style.backgroundColor = 'rgb(223, 91, 58)';
-       toChangeSpan.style.color =  'rgb(223, 91, 58)';
+   if(remainingCharacter === 0){
+       document.querySelector('input').classList.add('error');
+       toChangeSpan.classList.add('error');
+   }else if (remainingCharacter<11){
+    document.querySelector('input').classList.add('warning');  
+    toChangeSpan.classList.add('warning');
+    document.querySelector('input').classList.remove('error');  
+    toChangeSpan.classList.remove('error');
    }else{
-    document.querySelector('input').style.backgroundColor = 'white';   
+    document.querySelector('input').classList.remove('warning');  
+    toChangeSpan.classList.remove('warning');
    }
 }
 
