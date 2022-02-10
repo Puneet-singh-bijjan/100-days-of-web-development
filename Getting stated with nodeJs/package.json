@@ -1,0 +1,14 @@
+{
+  "name": "getting_started_with_node",
+  "version": "1.0.0",
+  "description": "getting started with nodeJs and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Puneet Singh Bijjan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
