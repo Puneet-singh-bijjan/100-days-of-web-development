@@ -11,7 +11,12 @@
   <main id="all-posts">
     <h1>All Posts</h1>
     <% for(const post of posts) { %> 
-      <%- include('includes/post-item', {post:post}) %> 
+      <ol>
+        <li>
+          <%- include('includes/post-item', {post:post}) %> 
+        </li>
+      </ol>
+      
     <% } %> 
   </main> 
 </body>
