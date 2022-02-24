@@ -24,8 +24,8 @@ router.get('/new-post', async function(req, res){
 router.get('/post-detail/:Id', async function(req, res){
     const postDetail = req.params.Id;
     let query = 'select * from posts inner join authors on posts.author_id = authors.Id where posts.Id = ' + postDetail;
-    const [[result]] = await db.query(query);
-    res.render('post-detail', {result : result});
+    const [result] = await db.query(query);
+    res.render('post-detail', {result : result[0]});
 });
 
 router.get('/remove/:Id', async function(req, res){
